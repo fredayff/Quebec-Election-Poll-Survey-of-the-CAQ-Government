@@ -1,0 +1,329 @@
+---
+title: 'Quebec Election: Poll Survey of the CAQ Government'
+author: "YUYAN XU, YIFAN XU"
+date: "2020/10/8"
+output:
+  pdf_document:
+    latex_engine: xelatex
+---
+
+ 
+# Summary
+
+The Coalition Avenir Québec (CAQ) is currently the dominant political force in Québec since it won the election in 2018. It is amazed and impressed that as a new-born political party, CAQ won 74 seats during the election. Before the 2018 election, the Parti libéral du Québec (PLQ) has most often been the dominant government in Québec, and it was the leader party in Québec during 2014~2017. The PLA has been and will be undoubtedly the strongest opponent of the CAQ in the 2022 election. Therefore, it is necessary for the CAQ to know the voters’ needs, then make effective strategies against the PLA, in order to win the 2022 election.
+
+As an expert in the related field, we are dedicated to sponsoring polling in Quebec for the CAQ. In this report, we simulated 10000 responses for each of the questions in the survey. The aim of this polling research is to understand the strengths, weakness of CAQ and to predict the important issues that potential voters in Quebec most worried about. Based on the outcomes we simulated, there were three key findings. First, local residents in Quebec are more supportive for CAQ. Among them, there is a majority of middle age voters; second, the potential voters in Quebec generally are more concern about issues of education and immigration policy, and they are looking for improvements in these areas; third, The potential voters in Quebec generally are satisfied with the CAQ , especially in the field of economic development in Quebec. Based on these findings, the chance of winning the election in 2022 will increase if CAQ focus on improving their policies on education and immigration.
+
+
+# Introduction
+
+In this polling research, we developed a survey and simulated 10000 responses for each concerned question. The probabilities of the voters choosing each of the options were considered carefully under the researches of real data, therefore, this polling research is reliable and reflective on the real population. We also summarized the statistics into plots and pie graphs to help our client create a better vision on polling data.
+
+Moreover, in order to develop an in-depth understanding of the attitudes, needs, and voting behaviours of potential voters in Québec, we also combined the research results with the sources of public opinions in the discussion section. The aim was to provide the client with our recommendations on achieving success in future elections.
+
+
+# Survey Methodology
+
+The population is the over 18-year-old Canadian residents in Quebec. We simulated 10000 samples from this population. The sampling frame is telephone directory and email addresses, since we reached out to the population through online survey and telephone calls.
+
+We chose the Simple Random Sampling without Replacement (SRSWOR). This is a sampling method that every possible sample of population with size n has the equal probability of being selected without replacement.  The SRSWOR method is suitable in this research because its property can largely reduce the chance of sampling bias. In addition, we altered the probability of each options in some of the survey questions with an intention of making the stimulation as closest to the real data as possible.
+
+The population size was too large, phone interview for the whole group could be time-consuming. Therefore, we decided to first contact about 70 % of the population by sending emails, then phone interview the rest of the population. In these emails, we explained our research propose on the email and provided the link to the survey. Also, in order to prevent these emails from being ignored or regarded as spam, we made the claim that anyone who finished this survey could get a $5 gift card from Tim Hortons, aiming at increasing their motivation to participate in this survey. We also inform the respondents in email: within 7 days,  attach the screenshot of the submitted questionnaire and send it to our email will win the gift card. 
+
+In summary of the above methodology, we made predictions regarding the possible costs. There are three types of costs should be considered:
+1) Money cost. Since our sample size is 10000, a budget of at least $50000 is expected, and 
+2) Time scope cost. It will take a considerable amount of time to collect the data from the survey, because the respondents might not decide to completed the survey as soon as they see the emails. In addition, the phone interviews are also time-consuming,
+3) Labour cost. The group of interviewers should be at least a size of 20 people, this could increase the efficiency of collected responses for the survey.
+
+Also, it is worth mentioning that our survey was completely anonymous and the personal information gathered would be in protection. This is made known to the respondents in our survey descriptions. In addition, if the respondents feel sensitive to any of the questions, they were free to choose the option "refused to answer".
+
+
+# Data
+
+In this survey, we created a total of 15 questions, which were mainly divided into three categories. The first is the demographic information of respondents, which asked about their age, highest education level, native language, current French level, nationality status and ethnic origin. The second was about the subjective view of Quebec’s political parties at this stage, which included the parties that they voted in the past, the degree of satisfaction with the current leader of CAQ, improvements the CAQ government have made, as well as areas that should be improved. The last was about their thoughts on the next election, which mainly included the political parties that they will never vote for and how do they feel if the CAQ government continue to stay in power.
+
+The survey link can be found at:
+Our survey contains questions as follows:
+
+1.  How old are you?
+(18~29 / 30~39 / 40~49 / 50+ / Refused to answer)
+
+2. What is the highest level of education that you have completed?
+(No formal schooling / Secondary schooling / High school diploma / Some College, No Degree / Bachelor Degree / Master’s Degree / Doctor’s Degree / Refused to answer)
+
+3. What is your first language? 
+(English / French / Neither English nor French/ Refused to answer)
+
+4. What is your current level of French?
+(Zero-based / Beginner / A little basic (European standard A1-A2) / Good level (European standard B1-B2) / More proficient (European standard C1-C2) / French mother tongue / Refused to answer)
+
+5. Are you an immigrant?
+(Yes / No / Refused to answer)
+
+6. What is your demographic identity?
+(East Asia / South Asia / Europe / North America / South America / Africa / Refused to answer)
+
+7. Which party did you vote for?
+(Coalition Avenir Québec / Parti libéral du Québec / Québec solidaire / Parti québécois / Haven't voted before / Refused to answer)
+
+8. How do you feel François Legault？Would you say really like(1), generally like (2), not very like (3), dislike (4)?
+(1 / 2 / 3 / 4 / Don’t Know / Refused to answer)
+
+9. How satisfied were you with the performance of the CAQ government under François Legault over the past 2 years? Would you say very satisfied (1), fairly satisfied (2), not very satisfied (3), or not satisfied at all (4)?
+(1 / 2 / 3 / 4 / Don’t Know / Refused to answer)
+
+10. Regarding the recent work of the CAQ government, what changes are you most satisfied with?
+(Education/ Environment/ Economic/ Health care/ Immigration policy/ Crime control/ Nothing/ Refused to answer)
+
+11. Regarding the recent work of the CAQ government, what aspects do you think need improvement?
+(Education/ Environment/ Economic/ Health care/ Immigration policy/ Crime control/ Nothing/ Refused to answer)
+
+12. Would you say that any of the political parties in Québec represents your views reasonably well?
+(Yes/ No/ Don't Know /Refused to answer)
+
+13. Is there a party you would absolutely not vote for?
+(Coalition Avenir Québec/ Parti liberal du Québec/ Québec solidaire/ Parti québécois /Have no idea /Refused to answer)
+
+14. Did you vote in the advance poll?
+(Yes/ Never voted before/ Refused to answer)
+
+15. Would you feel satisfied if CAQ continues to be the ruling party in Québec in the next two years?
+(Yes/ No /Don't know /Refused to answer)
+
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+library(tidyverse)
+library(rmarkdown)
+```
+
+
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+#Simulation of responses
+set.seed(7100086)
+sample <- tibble(
+   age = sample(x=c("18~29", "30~39", "40~49", "50+", "Refused to answer"),prob = c(0.15,0.2,0.2,0.35,0.1)  , size= 10000, replace=TRUE),
+   
+   education = sample(x=c("No formal schooling", "Secondary schooling", "High school diploma", "Some College, No Degree", "Bachelor Degree", "Master degree","Doctor degree","Refused to answer"), prob = c(0.05,0.05,0.1,0.25,0.3,0.1,0.05,0.1), size= 10000, replace=TRUE),
+   
+  first_language = sample(x=c("English", "French", "Neither English nor French", "Refused to answer"), prob = c(0.09,0.7,0.08,0.13), size= 10000, replace=TRUE),
+   
+   french_level = sample(x=c("Zero-based", "Beginner", "A little basic (European standard A1-A2)", "Good level (European standard B1-B2)", "More proficient (European standard C1-C2)", "French mother tongue", "Refused to answer"), prob = c(0.05,0.1,0.15,0.1,0.2,0.3,0.1), size= 10000, replace=TRUE),
+   
+   legal_status = sample(x=c("Yes", "No", "Refused to answer"), size= 10000, replace=TRUE),
+   
+   demo_identity = sample(x=c("East Asia",  "South Asia", "Europe", "North America", "South America", "Africa", "Refused to answer"), prob = c(0.015,0.015,0.8,0.03,0.04,0.04,0.06),size= 10000, replace=TRUE),
+   
+   vote_party = sample(x=c("Coalition Avenir Québec",  "Parti libéral du Québec", "Québec solidaire", "Parti québécois", "Haven't voted before", "Refused to answer"), prob = c(0.3,0.2,0.2,0.2,0.05,0.05), size= 10000, replace=TRUE),
+   
+   satisfied_leader = sample(x=c("1", "2", "3", "4", "Don't Know","Refused to answer"), prob = c(0.2,0.25,0.2,0.15,0.1,0.1), size= 10000, replace=TRUE),
+   
+   satisfied_party = sample(x=c("1", "2", "3", "4", "Don't Know","Refused to answer"), size= 10000, prob = c(0.25,0.25,0.15,0.15,0.1,0.1), replace=TRUE),
+   
+   satisfied = sample(x=c("Education","Environment", "Economic","Health care","Immigration policy","Crime control","Nothing","Refused to answer"), size=10000 , prob = c(0.15,0.15,0.25,0.15,0.1,0.1,0.05,0.05), replace=TRUE),
+   
+   improvement = sample(x=c("Education","Environment", "Economic","Health care","Immigration policy","Crime control","Nothing","Refused to answer"), size=10000 , prob = c(0.2,0.1,0.1,0.1,0.2,0.15,0.1,0.05), replace=TRUE),
+   
+   represents_views_well = sample(x=c("Yes","No","Don't know", "Refused to answer"), prob = c(0.4,0.3,0.2,0.1), size=10000 , replace=TRUE),
+   
+   not_vote  = sample(x=c("Coalition Avenir Québec","Parti libéral du Québec", "Québec solidaire","Parti québécois","Have no idea","Refused to answer"), size=10000 , replace=TRUE, prob = c(0.15,0.25,0.25,0.25,0.05,0.05)),
+   
+   vote_in_advance_poll = sample(x=c("Yes","Never voted before", "Refused to answer"), size=10000, prob = c(0.6,0.3,0.1), replace=TRUE),
+   
+   feel_satisfied = sample(x=c("Yes","No","Don't know", "Refused to answer"), size=10000 , replace=TRUE, prob = c(0.4,0.3,0.2,0.1)),
+   
+)
+```
+
+
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE,eval=FALSE}
+# This section investigates the frequencies of responses for each option in each question.
+as.data.frame(table(sample$age))
+as.data.frame(table(sample$education))
+as.data.frame(table(sample$first_language))
+as.data.frame(table(sample$french_level))
+as.data.frame(table(sample$legal_status))
+as.data.frame(table(sample$demo_identity))
+as.data.frame(table(sample$vote_party))
+as.data.frame(table(sample$satisfied_leader))
+as.data.frame(table(sample$satisfied))
+as.data.frame(table(sample$satisfied_party))
+as.data.frame(table(sample$improvement))
+as.data.frame(table(sample$represents_views_well))
+as.data.frame(table(sample$not_vote))
+as.data.frame(table(sample$vote_in_advance_poll))
+as.data.frame(table(sample$feel_satisfied))
+```
+
+Table1: Respondents' choices to each survey question
+
+As shown in Table 1, we count the answers of these 10,000 respondents to each survey question as above.
+
+Next, we will display the responses from the survey through bar plots and find some common factors about voters who are more inclined to the CAQ, as well as what are voters currently most concerned about, which helps guide policymakers to better meet the needs of voters.
+
+
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+eduplot <- ggplot(sample,  aes(x=education)) + geom_bar(position=position_dodge(0.4),fill ="light blue") + theme_bw() +  
+   labs(x = "Education level",
+       y = "Number",
+       title = "Figure 2: Distribution of the education level of 10000 respondents") + scale_x_discrete(guide = guide_axis(n.dodge = 2))
+eduplot
+```
+
+As shown in Figure 2, among these 10,000 respondents, those with Bachelor Degrees are the most, closing to 30%. Nearly a quarter of the respondents have college degrees. In contrast, both people with very low and very high degrees account for the least. And 10% refuse to answer.
+
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+first_lan <- ggplot(sample)+geom_bar(aes(x=factor(1),fill=first_language))+coord_polar(theta="y")+   
+   labs(x = "count",
+       y = "Number",
+       title = "Figure 3: Responses to 'What is your first language?' ") 
+first_lan
+```
+
+Figure 3 indicates that the native language of the vast majority of respondents is French, accounting for nearly 70%.
+
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+voteplot <- ggplot(sample,  aes(x= vote_party )) +
+geom_bar(position=position_dodge(0.4),fill ="light blue") + theme_bw() +  
+   labs(x = "Responses",
+       y = "Number",
+       title = "Figure 4: Distribution of responses to 'Which party did you vote for?'")+ scale_x_discrete(guide = guide_axis(n.dodge = 2))
+voteplot
+```
+
+By observing Figure 4, among 10,000 respondents, those who have voted for CAQ are the most, accounting for 30%, which is about 10% higher than those voting for other three parties.
+
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+#The figures in this section investigate the Quebecers' level of satisfaction to the CAQ and the leader
+satifiedleader <- ggplot(sample,  aes(x=satisfied_leader)) +
+geom_bar(position=position_dodge(0.4),fill ="light blue") + theme_bw() +  
+   labs(x = "Satisfaction with the CAQ leader: François Legault",
+       y = "Number",
+       title = "Figure 5: Responses to 'How do you feel François Legault?' ")
+satifiedparty <- ggplot(sample,  aes(x=satisfied_party)) +
+geom_bar(position=position_dodge(0.4),fill ="light blue") + theme_bw() +  
+   labs(x = "Satisfaction with the performance of the CAQ government",
+       y = "Number",
+       title = "Figure 6: How satisfied were you with the performance of the CAQ 
+       government? ")
+satifiedleader
+satifiedparty
+```
+Figure 5 and 6 tell us most respondents are generally satisfied with the leader François Legault and the performance of the CAQ government under him.
+
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+impro <- ggplot(sample,  aes(x=improvement)) +
+geom_bar(position=position_dodge(0.4),fill ="light blue") + theme_bw() +  
+   labs(x = "Responses",
+       y = "Number of people",
+       title = "Figure 7: Responses to 'What aspects do you think need improvement?' ")+ scale_x_discrete(guide = guide_axis(n.dodge = 2))
+impro
+satisfied <- ggplot(sample,  aes(x=satisfied)) +
+geom_bar(position=position_dodge(0.4),fill ="light blue") + theme_bw() +  
+   labs(x = "Responses",
+       y = "Number of people",
+       title = "Figure 8: Responses to 'What changes are you most satisfied with?' ") + scale_x_discrete(guide = guide_axis(n.dodge = 2))
+satisfied
+```
+
+These two figures (7 and 8) intuitively show the respondents' general evaluation of the CAQ government's performance. They are most satisfied with the changes to Quebec's economy during its administration. Moreover, they feel that the quality of education and immigration policy need to be improved currently.
+
+
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+satisfiedf <- ggplot(sample,  aes(x=feel_satisfied)) +
+geom_bar(position=position_dodge(0.4),fill ="light blue") + theme_bw() +  
+   labs(x = "Responses",
+       y = "Number of people",
+       title = "Figure 9: Responses about satisfaction with the CAQ's continued 
+governance")
+satisfiedf
+```
+
+As shown in the figure 9, we find that nearly 40% of the respondents said they would keep supporting the CAQ in the next two years. 20% of them were not very sure, and 10% refused to answer this question.
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+sample$legal_status[sample$legal_status == "Refused to answer"] <- NA
+sample <- sample[complete.cases(sample),]
+satisfiedcon <- ggplot(sample,  aes(x=feel_satisfied, condition=legal_status)) +
+geom_bar(position=position_dodge(0.4),fill ="light blue") + theme_bw() +  
+   labs(x = "Responses",
+       y = "Number of people",
+       title = "Figure 10: Respondents' attitude towards the CAQ's governance 
+grouped by their legal status")
+satisfiedcon
+```
+
+Furthermore, we combine these two questions: "Are you an immigrant?" and "would you feel satisfied if CAQ continues to be the ruling party in Québec in the next two years?". We first treat "refused to answer" as missing values then ignore them, since they would not contribute to our analysis.
+
+Figure 10 shows the result (For each category variable along the x-axis, the first column represents the number of Quebec local citizens while the second column represents the number of immigrants). It suggests that among those respondents who support the continued governance of the CAQ, there are more Quebec local citizens than immigrants.
+
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+age_vs_satisfy <- ggplot(sample)+geom_bar(aes(x=feel_satisfied, fill=age))+coord_flip() + labs(x = "Age group",
+       y = "Number",
+       title = "Figure 11: Respondents' attitude towards the CAQ's governance grouped 
+by ages") 
+age_vs_satisfy
+```
+
+Combined with age, figure 12 indicates that among the respondents who support the continued governance for the next 2 years, middle-aged people over 50+ accounted for the most, followed by young people aged 30 to 39.
+
+
+# Discussion
+
+This article displays the results of the survey in the form of table and graphs, as well as exploring the factors on supporting the CAQ. Through age grouping of its supporters, we found that most of them are middle-aged. In addition, compared with immigrants, the CAQ is more supported by local residents of Quebec.
+
+Based on the analysis of the CAQ political performance in the past two years, respondents are most satisfied with the changes made to Quebec's economy during its administration. They believe that the quality of education and immigration policy in Quebec still need to be improved.
+
+It is certain that the business support policy and the investment promotion suggested by the CAQ have been effective (CAQ Economy). The voters in Quebec are generally satisfied with the economic development , this improved the public impression on the CAQ and their future support. The leader of the CAQ, Legault and Sirois focused on the improvement of human capital when it comes to solving the economic crisis in Quebec (Tanguay, 2012). In the aspect of education in related to economic improvement, there were polices such as tuition hikes for postsecondary education, financing both doctors and hospitals, financing the Quebecbased enterprises (Tanguay, 2012). Although based on the finding in this research, the voters in Quebec are looking for a better improvement in education.
+
+In addition, with a combination of survey findings and the past election results, the voting behavior of the potential voters in Quebec is clear: they value the education, immigration policy, and environment. Also, there are long-term factors such as language and party identification (Bélanger & Daoust, 2020). In this research survey, it appeared that a majority of the potential voters speak or only speak French. This is corresponding to the CAQ’s immigration policy: in order to apply for the permanent residency in Quebec, the applicants need to achieve a French efficiency level of 7 (CAQ immigration). This policy is beloved by the French speakers, although it neglects the population in Quebec that only speaks English. In this aspect, the CAQ might lose certain amount of polling because the immigration policy is not for the interest of the whole population.
+
+In summary, our suggestions for the CAQ are: first, emphasize the effectiveness of economic polices during the next campaign; second, promotion of new education and immigration policies that best satisfy with the whole population’s needs; third, the short-term factors are also important to consider when understanding the voting behaviour, such as the environmental issues. 
+
+It is also worth mentioning that the findings in this survey research are the stimulation of data that based entirely on the past analyses of polling data. This means that the polling statistics in reality might differ from these findings. In addition, there are a considerable amount of non-responses in the survey, where people chose not to answer. This could result in an inaccuracy of the data. 
+
+
+# Weakness and next step
+
+The survey should contain more inquiries about how the potential voters view of the PLQ, this could help us understand the strength and weakness of the opponent, then change the polling strategies accordingly.
+
+In addition, the data were stimulated based on the past polling outcomes and relative researches. It is only used for predicting the voting behavior of potential voters in Québec, the public opinion in the present on political parties might be different from the past. Moreover, only 1,000 voters participated in the survey, which may not represent the ideas of all voters in Quebec. Therefore, the results of this research should not be the only margin on the prediction.
+
+In future survey research, we will increase the thoroughness of the survey such that we can know more about the voting behaviour and make more accurate prediction on public opinion. Also, we will ensure the confidentiality in the survey in order to avoid the non-response bias.
+
+
+# References
+
+- R Core Team (2020). R: A language and environment for statistical computing. R Foundation for Statistical
+  Computing, Vienna, Austria. URL https://www.R-project.org/.
+
+- JJ Allaire and Yihui Xie and Jonathan McPherson and Javier Luraschi and Kevin Ushey and Aron Atkins and Hadley Wickham and Joe Cheng and Winston Chang and Richard Iannone (2020). rmarkdown: Dynamic Documents for R. Rpackage version 2.3. URL https://rmarkdown.rstudio.com.
+
+- Yihui Xie and J.J. Allaire and Garrett Grolemund (2018). R Markdown: The Definitive Guide. Chapman and
+  Hall/CRC. ISBN 9781138359338. URL https://bookdown.org/yihui/rmarkdown.
+  
+- Wickham et al., (2019). Welcome to the tidyverse. Journal of Open Source Software, 4(43), 1686,
+  https://doi.org/10.21105/joss.01686
+
+- Yihui Xie and J.J. Allaire and Garrett Grolemund (2018). R Markdown: The
+  Definitive Guide. Chapman and Hall/CRC. ISBN 9781138359338.
+  https://bookdown.org/yihui/rmarkdown.
+  
+- Economy - Coalition Avenir Québec. 
+  https://coalitionavenirquebec.org/en/blog/enjeux/economy/
+  
+- Immigration - Coalition Avenir Québec. 
+  https://coalitionavenirquebec.org/en/blog/enjeux/immigration/
+  
+- Tanguay, B. (2012, Summer). Coalition avenir québec./Inroads,/, 95-104.         http://myaccess.library.utoronto.ca/login?qurl=https%3A%2F%2Fwww.proquest.com%2Fdocview%2F12947904%3Faccountid%3D14771
+
+- Bélanger Éric, & Daoust Jean-François. (2020). A night to remember: Perspectives on the watershed 2018 quebec election./French Politics, 18/(3), 213-220. doi:http://dx.doi.org.myaccess.library.utoronto.ca/10.1057/s41253-020-00122-w
+© 2021 GitHub, Inc.
